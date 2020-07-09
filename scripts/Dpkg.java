@@ -14,6 +14,7 @@ class Dpkg {
         pw.println(line);
         line = br.readLine();
       }
+      br.close();
       pw.println();
       pw.flush();
     }
